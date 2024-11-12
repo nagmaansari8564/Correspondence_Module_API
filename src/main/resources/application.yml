@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: 14_CO_API
+  datasource:
+    url: jdbc:mysql://localhost:3306/jrtp
+    username: Nagma
+    password: Nagma@123
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
